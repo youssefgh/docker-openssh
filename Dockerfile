@@ -1,6 +1,6 @@
-FROM alpine:3.8
+FROM alpine:3.12
 
 MAINTAINER Youssef GHOUBACH <ghoubach.youssef@gmail.com>
 
 RUN apk add --update \
-    openssh=7.7_p1-r3
+    openssh=8.3_p1-r0
